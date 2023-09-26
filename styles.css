@@ -3,8 +3,9 @@
   }
 
 body {
-    color: #dfdfe2;
+    color: #F9FAF8;
     margin: 0;
+    font-family: roboto;
     
 }
 
@@ -63,7 +64,7 @@ body {
 }
 
 .text h2 {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
     color: #F9FAF8
 }
@@ -76,6 +77,7 @@ body {
 }
 
 .text > button {
+    width: 150px;
     background-color: #3882F6;
     border: none;
     color: white;
@@ -139,7 +141,7 @@ body {
     text-align: center;
 }
 
-.thrid-sec {
+.third-sec {
     width: 100%;
     height: 450px;
     margin: 0 auto;
@@ -160,4 +162,52 @@ body {
 .review > .jane {
     text-align: right;
     font-weight: bold;
+}
+
+.forth-sec {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-div {
+    width: 80%;
+    height: 150px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.for-div h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.for-div p {
+    font-size: 20px;
+}
+
+.for-div button {
+    width: 150px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.for-div button:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+    border: 1px solid #3882F6;
 }
